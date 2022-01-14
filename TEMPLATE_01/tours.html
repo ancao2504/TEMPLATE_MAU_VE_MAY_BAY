@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, initial-scale=1.0, shrink-to-fit=no">
+        <title>Tour du lịch - OnlineBooking</title>
+        <link rel='shortcut icon' href='https://img.webbanve.net/photos/resized/32x32/logo-fgg.png' />
+        <meta property="og:image" content="https://img.webbanve.net/photos/resized/x/1397-1507381612-onlinebooking.png"/>
+        <meta property="og:image:width" content="720" />
+        <meta property="og:image:height" content="480" />
+        <meta property="og:url" content="http://demo04.webbanve.net/tours">
+        <meta property="og:type" content="article" />
+        <meta name="subject" content="OnlineBooking">
+        <meta name="language" content="vietnamese">
+        <meta name="robots" content="index,follow" />
+        <meta name="abstract" content="OnlineBooking">
+        <meta name="topic" content="OnlineBooking">
+        <meta name="author" content="sale@datacom.vn">
+        <meta name="reply-to" content="sale@datacom.vn">
+        <meta name="owner" content="sale@datacom.vn">
+        <meta name="title" property="og:title" content="Tour du lịch - OnlineBooking" />
+        <meta name="keywords" property="og:keywords" content="" />
+        <meta name="description" property="og:description" content="Tour du lịch - OnlineBooking" />
+        <meta property="fb:app_id" content="221330904972338" />
+        <meta property="article:author" content="sale@datacom.vn" />
+        <meta property="article:publisher" content="sale@datacom.vn" />
+        <meta name="fb:page_id" content="webbanve.net" />
+        <meta name="og:email" content="OnlineBooking"/>
+        <meta name="og:phone_number" content="1900 1900"/>
+        <!-- Link font -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+        <!-- CSS plugin-->
+        <link rel="stylesheet" type="text/css" href="./templates/assets/css/slick.css">
+        <link rel="stylesheet" type="text/css" href="./templates/assets/css/slick-theme.css">
+        <link rel="stylesheet" href="./templates/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./templates/assets/css/select2.min.css">
+        <link rel="stylesheet" href="./templates/assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./templates/assets/css/bootstrap-datepicker3.min.css">
+        <link rel="stylesheet" href="./templates/assets/css/animate.css">
+        <!-- CSS Custom-->
+        <link rel="stylesheet" href="./templates/avia/css/style.css?1639108659">
+        <link rel="stylesheet" href="./templates/avia/css/media_all.css?1639108659">
+    </head>
+    <body>
+        <div class="wrapper">
+        <!-- Header -->
+        <div class="overlay-body"></div>
+        <div class="header">
+            <div class="container" id="main-nav">
+                <nav class="navbar nav-header">
+                    <div class="navbar-header">
+                        <a class="" href="/">
+                        <img class="logo-header" src="./images/logo-fgg.png">
+                        </a>
+                    </div>
+                    <div class="list_banner_advertise hidden-xs hidden-sm">
+                    </div>
+                    <ul class="nav navbar-nav hidden-xs has-sub-menu list-menu">
+                        <!-- <li class="active hidden-sm"><a href="/">Trang chủ</a></li> -->
+                        <li class="hidden-sm hidden-xs menu-ve-noi-dia">
+                            <a href="#">Vé nội địa</a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="/ve-may-bay/ha-noi-han">Vé máy bay đi Hà Nội</a></li>
+                                    <li><a href="/ve-may-bay/sai-gon-sgn">Vé máy bay đi Sài Gòn</a></li>
+                                    <li><a href="/ve-may-bay/da-nang-dad">Vé máy bay đi Đà Nẵng</a></li>
+                                    <li><a href="/ve-may-bay/nha-trang-cxr">Vé máy bay đi Nha Trang</a></li>
+                                    <li><a href="/ve-may-bay/hue-hui">Vé máy bay đi Huế</a></li>
+                                    <li><a href="/ve-may-bay/da-lat-dli">Vé máy bay đi Đà Lạt</a></li>
+                                    <li><a href="/ve-may-bay/phu-quoc-pqc">Vé máy bay đi Phú Quốc</a></li>
+                                    <li><a href="/ve-may-bay/vinh-vii">Vé máy bay đi Vinh</a></li>
+                                    <li><a href="/ve-may-bay/can-tho-vca">Vé máy bay đi Cần Thơ</a></li>
+                                    <li><a href="/ve-may-bay/hai-phong-hph">Vé máy bay đi Hải Phòng</a></li>
+                                    <li><a href="/ve-may-bay/buon-me-thuot-bmv">Vé máy bay đi Buôn Mê Thuột</a></li>
+                                    <li><a href="/ve-may-bay/quy-nhon-qui-nhon-uih">Vé máy bay đi Quy Nhơn</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hidden-sm hidden-xs menu-ve-quoc-te">
+                            <a href="#">Vé quốc tế</a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li><a href="/ve-may-bay/my-lax">Vé máy bay đi Mỹ</a></li>
+                                    <li><a href="/ve-may-bay/uc-syd">Vé máy bay đi Úc</a></li>
+                                    <li><a href="/ve-may-bay/singapore-sin">Vé máy bay đi Singapore</a></li>
+                                    <li><a href="/ve-may-bay/thai-lan-bkk">Vé máy bay đi Thái Lan</a></li>
+                                    <li><a href="/ve-may-bay/nhat-ban-tyo">Vé máy bay đi Nhật Bản</a></li>
+                                    <li><a href="/ve-may-bay/han-quoc-sel">Vé máy bay đi Hàn Quốc</a></li>
+                                    <li><a href="/ve-may-bay/duc-txl">Vé máy bay đi Đức</a></li>
+                                    <li><a href="/ve-may-bay/anh-lon">Vé máy bay đi Anh</a></li>
+                                    <li><a href="/ve-may-bay/phap-par">Vé máy bay đi Pháp</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-tours"><a href="/tours">Tours</a></li>
+                        <li class="menu-tin-tuc">
+                            <a href="/tin-tuc">
+                            Tin tức
+                            </a>
+                        </li>
+                        <li class="hidden-sm menu-gioi-thieu">
+                            <a href="/gioi-thieu">Giới thiệu</a>
+                        </li>
+                        <li class="menu-tien-ich">
+                            <a href="#">Tiện ích</a>
+                            <div class="sub-menu">
+                                <ul>
+                                    <li>
+                                        <a href="/cau-hoi-thuong-gap">Câu hỏi thường gặp</a>
+                                    </li>
+                                    <li>
+                                        <a href="/thong-tin-chuyen-khoan">Thanh toán</a>
+                                    </li>
+                                    <li>
+                                        <a href="/huong-dan-dat-ve">Hướng dẫn đặt vé</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hidden-sm menu-lien-he">
+                            <a href="/lien-he">Liên hệ</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right m0">
+                        <li class="">
+                            <div class="phone-info">
+                                <i class="fa fa-phone hidden-xs hidden-sm" aria-hidden="true"></i>
+                                <span class="font16">
+                                <a href="tel:19001900">
+                                1900 1900                            </a>
+                                </span><br>
+                                <span class="font14">
+                                <a href="tel:0968868686">
+                                0968 868 686                                </a>
+                                |  <a href="tel:0989898989">
+                                0989 898 989                                </a>
+                                </span>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <button type="button" class="btn btn-dropbox" data-toggle="dropdown">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li class="col-xs-12 col-sm-4">
+                                    <div class="title">DỊCH VỤ</div>
+                                    <ul class="list-unstyled">
+                                        <li class=""><a href="/">Vé máy bay</a></li>
+                                        <li><a href="/tours">Tour</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-xs-12 col-sm-4 menu-tin-tuc">
+                                    <div class="title">OnlineBooking</div>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="/tin-tuc">
+                                            Tin tức
+                                            </a>
+                                        </li>
+                                        <li class="">
+                                            <a href="/gioi-thieu">Giới thiệu</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="/lien-he">Liên hệ</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="col-xs-12 col-sm-4">
+                                    <div class="title">LINK HỮU ÍCH</div>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="/cau-hoi-thuong-gap">Câu hỏi thường gặp</a>
+                                        </li>
+                                        <li>
+                                            <a href="/thong-tin-chuyen-khoan">Thanh toán</a>
+                                        </li>
+                                        <li>
+                                            <a href="/huong-dan-dat-ve">Hướng dẫn đặt vé</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <nav class="navbar nav-date" id="main-nav-date">
+                <i class="fa fa-window-close" aria-hidden="true"></i> <span>ABCD</span>
+            </nav>
+        </div>
+        <!-- End Header    <!-- End Header -->
+        <!-- Body -->
+        <div class="main-content">
+            <div class="banner banner-tours" style="background-image: url(./images/banner_8.jpg)">
+                <div class="container p0xs">
+                    <div class="title_bn pages-tours">
+                        <h1>Hơn 300 tours du lịch ở Việt Nam và Quốc tế</h1>
+                        <h2 class="black-stripe">Bạn muốn đi du lịch đến đâu?</h2>
+                    </div>
+                    <div class="col-xs-12 col-sm-12">
+                        <div class="box-search-tour">
+                            <!-- <div>Tìm Tour</div> -->
+                            <form data-toggle="validator" action="/avia/tours" method="post" id="form-tours">
+                                <div class="input-group box-search-tours">
+                                    <input type="text" name="keyword" class="form-control input-search-tours" placeholder="Tên thành phố, khu vực ..." aria-label="Tên thành phố, khu vực ..." value="" id="input-search-tours" autocomplete="off">
+                                    <span class="input-group-btn">
+                                    <button class="btn btn-orange-48" type="submit"><i class="fa fa-search" aria-hidden="true"></i> Tìm kiếm</button>
+                                    </span>
+                                    <div class="box-select-option">
+                                        <button class="btn btn-close close1 visible-xs" type="button">
+                                        <b class="visible-xs"><i class="fa fa-window-close" aria-hidden="true"></i></b>
+                                        </button>
+                                        <div class="div-in-search">
+                                            <div class="title-mb visible-xs">ĐỊA ĐIỂM HOT </div>
+                                        </div>
+                                        <div class="row scroll-touch tours-search-content">
+                                            <div class="hot-tours-txt hidden-xs"><i class="fa fa-location-arrow" aria-hidden="true"></i> ĐỊA ĐIỂM HOT </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4 p0">
+                                                <a href="/tours?destination=an do"><img class="img-search-tour" src="./images/1397-1507377353-onlinebooking.png" onerror="this.src='./templates/assets/img/no-image.png'"></a>
+                                                <div class="tours-info">
+                                                    <p>Ấn Độ</p>
+                                                    <a href="/tours?destination=an do"><b>1</b> Tours</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4 p0">
+                                                <a href="/tours?destination=bangkok"><img class="img-search-tour" src="./images/1397-1507377640-onlinebooking.png" onerror="this.src='./templates/assets/img/no-image.png'"></a>
+                                                <div class="tours-info">
+                                                    <p>Bangkok</p>
+                                                    <a href="/tours?destination=bangkok"><b>1</b> Tours</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4 p0">
+                                                <a href="/tours?destination=ha giang"><img class="img-search-tour" src="./images/1397-1507378708-onlinebooking.png" onerror="this.src='./templates/assets/img/no-image.png'"></a>
+                                                <div class="tours-info">
+                                                    <p>Hà Giang</p>
+                                                    <a href="/tours?destination=ha giang"><b>1</b> Tours</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4 p0">
+                                                <a href="/tours?destination=hawaii"><img class="img-search-tour" src="./images/1397-1507381612-onlinebooking.png" onerror="this.src='./templates/assets/img/no-image.png'"></a>
+                                                <div class="tours-info">
+                                                    <p>Hawaii</p>
+                                                    <a href="/tours?destination=hawaii"><b>1</b> Tours</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4 p0">
+                                                <a href="/tours?destination=hongkong"><img class="img-search-tour" src="./images/1397-1507379894-onlinebooking.png" onerror="this.src='./templates/assets/img/no-image.png'"></a>
+                                                <div class="tours-info">
+                                                    <p>Hongkong</p>
+                                                    <a href="/tours?destination=hongkong"><b>1</b> Tours</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4 p0">
+                                                <a href="/tours?destination=phap"><img class="img-search-tour" src="./images/1397-1507385065-onlinebooking.png" onerror="this.src='./templates/assets/img/no-image.png'"></a>
+                                                <div class="tours-info">
+                                                    <p>PHÁP</p>
+                                                    <a href="/tours?destination=phap"><b>1</b> Tours</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4 p0">
+                                                <a href="/tours?destination=phu quoc"><img class="img-search-tour" src="./images/1397-1507382364-onlinebooking.png" onerror="this.src='./templates/assets/img/no-image.png'"></a>
+                                                <div class="tours-info">
+                                                    <p>Phú Quốc</p>
+                                                    <a href="/tours?destination=phu quoc"><b>1</b> Tours</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4 p0">
+                                                <a href="/tours?destination=da lat"><img class="img-search-tour" src="./images/1397-1507380722-onlinebooking.png" onerror="this.src='./templates/assets/img/no-image.png'"></a>
+                                                <div class="tours-info">
+                                                    <p>Đà Lạt</p>
+                                                    <a href="/tours?destination=da lat"><b>1</b> Tours</a>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-4 p0">
+                                                <a href="/tours?destination=da nang"><img class="img-search-tour" src="./images/1397-1507377664-onlinebooking.png" onerror="this.src='./templates/assets/img/no-image.png'"></a>
+                                                <div class="tours-info">
+                                                    <p>Đà Nẵng</p>
+                                                    <a href="/tours?destination=da nang"><b>1</b> Tours</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Banner -->
+            <div class="block-sec bg-grey">
+                <div class="container">
+                    <div class="news page-has-banner tours-pages">
+                        <div class="row m0 pt0xs">
+                            <div class="col-xs-12 col-sm-12 mt15 p0xs">
+                                <div class="box-white news2">
+                                    <div class="title-tour">
+                                        <h2>
+                                            HOT DEALS                
+                                        </h2>
+                                        <a href="/tours/HOT-DEALS-1260">
+                                        Xem thêm Tour <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                    <div class="content-white">
+                                        <div class="row row-8">
+                                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 p8-row">
+                                                <div class="card">
+                                                    <a href="/tour/Bangkok-Pattaya--Xem-Nanta-show-3800"> 
+                                                    <img class="card-img-top" src="./images/1397-1507377640-onlinebooking.png" alt="" onerror="this.src='./templates/assets/img/no-image.png'">
+                                                    </a>
+                                                    <div class="card-body">
+                                                        <a href="/tour/Bangkok-Pattaya--Xem-Nanta-show-3800">
+                                                            <h4 class="card-title">Bangkok-Pattaya -Xem Nanta show.</h4>
+                                                        </a>
+                                                        <p class="card-text">Nằm trong khu vực Đông Nam Á, Thái Lan được du khách ưu ái dành tặng cho nhiều mỹ danh như: “Đất Nước Chùa Vàng”, “Thiên Đường Du Lịch”, “Thiên Đường Mua Sắm”, “Xứ Sở Của Những Nụ Cười Thân Thiện”.</p>
+                                                    </div>
+                                                    <ul class="list-group list-group-flush">
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                                            05 Ngày 04 đêm                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane go" aria-hidden="true"></i>  
+                                                            HỒ CHÍ MINH                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane back" aria-hidden="true"></i>  
+                                                            Bangkok                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-usd" aria-hidden="true" style="margin-left: 2px;"></i> 
+                                                            <span class="price">6.590.000đ</span>
+                                                        </li>
+                                                        <!--  <li class="list-group-item">
+                                                            <i class="fa fa-check" aria-hidden="true"></i> 
+                                                            SGTL1000                                </li> -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 p8-row">
+                                                <div class="card">
+                                                    <a href="/tour/an-do--Thung-Lung-Kashmir--Tam-Giac-Vang-3799"> 
+                                                    <img class="card-img-top" src="./images/1397-1507377353-onlinebooking.png" alt="" onerror="this.src='./templates/assets/img/no-image.png'">
+                                                    </a>
+                                                    <div class="card-body">
+                                                        <a href="/tour/an-do--Thung-Lung-Kashmir--Tam-Giac-Vang-3799">
+                                                            <h4 class="card-title">Ấn Độ -Thung Lũng Kashmir – Tam Giác Vàng</h4>
+                                                        </a>
+                                                        <p class="card-text">Được biết đến như thiên đường trên mặt đất, Kashmir – thành phố đẹp như tranh vẽ nằm ở cực bắc thuộc bang Jammu và Kashmir ở miền tây bắc Ấn Độ.</p>
+                                                    </div>
+                                                    <ul class="list-group list-group-flush">
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                                            08 NGÀY 7 ĐÊM                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane go" aria-hidden="true"></i>  
+                                                            HỒ CHÍ MINH                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane back" aria-hidden="true"></i>  
+                                                            Ấn Độ                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-usd" aria-hidden="true" style="margin-left: 2px;"></i> 
+                                                            <span class="price">38.990.000đ</span>
+                                                        </li>
+                                                        <!--  <li class="list-group-item">
+                                                            <i class="fa fa-check" aria-hidden="true"></i> 
+                                                            SGAD1000                                </li> -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 p8-row">
+                                                <div class="card">
+                                                    <a href="/tour/4N3d-Du-Lich-Phu-Quoc-Gia-Re-3798"> 
+                                                    <img class="card-img-top" src="./images/1397-1507382364-onlinebooking.png" alt="" onerror="this.src='./templates/assets/img/no-image.png'">
+                                                    </a>
+                                                    <div class="card-body">
+                                                        <a href="/tour/4N3d-Du-Lich-Phu-Quoc-Gia-Re-3798">
+                                                            <h4 class="card-title">4N3Đ Du Lịch Phú Quốc Giá Rẻ</h4>
+                                                        </a>
+                                                        <p class="card-text">Từ lâu, Phú Quốc đã trở nên nổi tiếng với khách du lịch khắp mọi miền đất nước và quốc tế. Điều này không chỉ vì Phú Quốc là một hòn đảo du lịch xinh đẹp vốn được mệnh danh là thiên đường rực nắng, mà nơi đây còn chứa đựng nhiều điều bí ẩn mà không phải ai cũng có thể khám phá hết được</p>
+                                                    </div>
+                                                    <ul class="list-group list-group-flush">
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                                            04 Ngày 03 Đêm                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane go" aria-hidden="true"></i>  
+                                                            Hà Nội                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane back" aria-hidden="true"></i>  
+                                                            Phú Quốc                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-usd" aria-hidden="true" style="margin-left: 2px;"></i> 
+                                                            <span class="price">5.990.000đ</span>
+                                                        </li>
+                                                        <!--  <li class="list-group-item">
+                                                            <i class="fa fa-check" aria-hidden="true"></i> 
+                                                            PQ1001                                </li> -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 mt15 p0xs">
+                                <div class="box-white news2">
+                                    <div class="title-tour">
+                                        <h2>
+                                            Du lịch nội địa                
+                                        </h2>
+                                        <a href="/tours/Du-lich-noi-dia-1261">
+                                        Xem thêm Tour <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                    <div class="content-white">
+                                        <div class="row row-8">
+                                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 p8-row">
+                                                <div class="card">
+                                                    <a href="/tour/Cao-Nguyen-da-dong-Van-Ha-Giang-3803"> 
+                                                    <img class="card-img-top" src="./images/1397-1507378708-onlinebooking.png" alt="" onerror="this.src='./templates/assets/img/no-image.png'">
+                                                    </a>
+                                                    <div class="card-body">
+                                                        <a href="/tour/Cao-Nguyen-da-dong-Van-Ha-Giang-3803">
+                                                            <h4 class="card-title">Cao Nguyên Đá Đồng Văn, Hà Giang</h4>
+                                                        </a>
+                                                        <p class="card-text">Tận mắt ngắm nhìn cao nguyên đá với phong cảnh hùng vỹ nhất của Việt Nam. Tận mắt ngắm nhìn đèo Mã Pì Lèng hùng vỹ và hẻm vực sông Nho Quế sâu nhất Việt Nam. Khám phá nét đẹp văn hóa của đồng bào dân tộc H’Mông, Dzao, Lô Lô, Tày…</p>
+                                                    </div>
+                                                    <ul class="list-group list-group-flush">
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                                            3 ngày 2 đêm                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane go" aria-hidden="true"></i>  
+                                                            Hà Nội                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane back" aria-hidden="true"></i>  
+                                                            Hà Giang                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-usd" aria-hidden="true" style="margin-left: 2px;"></i> 
+                                                            <span class="price">2.150.000đ</span>
+                                                        </li>
+                                                        <!--  <li class="list-group-item">
+                                                            <i class="fa fa-check" aria-hidden="true"></i> 
+                                                            HG1001                                </li> -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 p8-row">
+                                                <div class="card">
+                                                    <a href="/tour/Du-Lich-Khuyen-Mai-Thien-duong-Mien-Trung-2017-3802"> 
+                                                    <img class="card-img-top" src="./images/1397-1507377664-onlinebooking.png" alt="" onerror="this.src='./templates/assets/img/no-image.png'">
+                                                    </a>
+                                                    <div class="card-body">
+                                                        <a href="/tour/Du-Lich-Khuyen-Mai-Thien-duong-Mien-Trung-2017-3802">
+                                                            <h4 class="card-title">Du Lịch Khuyến Mãi Thiên Đường Miền Trung 2017</h4>
+                                                        </a>
+                                                        <p class="card-text">Hà Nội – Đà Nẵng – Bà Nà – Cù Lao Chàm – Hội An chúng ta sẽ được tham quan nhuwnxgd địa danh như Làng Nghề Điêu Khắc Đá Non Nước,Chùa Cầu Nhật Bản, Bảo tàng văn hóa Sa Huỳnh, Nhà Cổ hàng trăm năm tuổi, Hội Quán Phước Kiến & Xưởng thủ công mỹ nghệ, tham quan Hầm Rượu Debay của Pháp.</p>
+                                                    </div>
+                                                    <ul class="list-group list-group-flush">
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                                            04 NGÀY 03 ĐÊM                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane go" aria-hidden="true"></i>  
+                                                            Hà Nội                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane back" aria-hidden="true"></i>  
+                                                            Đà Nẵng                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-usd" aria-hidden="true" style="margin-left: 2px;"></i> 
+                                                            <span class="price">4.800.000đ</span>
+                                                        </li>
+                                                        <!--  <li class="list-group-item">
+                                                            <i class="fa fa-check" aria-hidden="true"></i> 
+                                                            DN1003                                </li> -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 p8-row">
+                                                <div class="card">
+                                                    <a href="/tour/da-Lat--duong-Ham-dieu-Khac-dat-Set-3801"> 
+                                                    <img class="card-img-top" src="./images/1397-1507380722-onlinebooking.png" alt="" onerror="this.src='./templates/assets/img/no-image.png'">
+                                                    </a>
+                                                    <div class="card-body">
+                                                        <a href="/tour/da-Lat--duong-Ham-dieu-Khac-dat-Set-3801">
+                                                            <h4 class="card-title">Đà Lạt – Đường Hầm Điêu Khắc Đất Sét</h4>
+                                                        </a>
+                                                        <p class="card-text">Du lịch đến với Đà Lạt các bạn sẽ được thăm quan các địa điểm  Thác Đam B’ri, thưởng thức cà phê trong không khí se lạnh của Đà Lạt, ngắm cảnh Hồ Xuân Hương về đêm,Núi Langbiang – Nóc nhà Tây Nguyên, ngắm toàn cảnh núi đồi, hồ Dankia,</p>
+                                                    </div>
+                                                    <ul class="list-group list-group-flush">
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                                            04 NGÀY 03 ĐÊM                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane go" aria-hidden="true"></i>  
+                                                            HỒ CHÍ MINH                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane back" aria-hidden="true"></i>  
+                                                            Đà Lạt                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-usd" aria-hidden="true" style="margin-left: 2px;"></i> 
+                                                            <span class="price">2.590.000đ</span>
+                                                        </li>
+                                                        <!--  <li class="list-group-item">
+                                                            <i class="fa fa-check" aria-hidden="true"></i> 
+                                                            SGDL1000                                </li> -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 mt15 p0xs">
+                                <div class="box-white news2">
+                                    <div class="title-tour">
+                                        <h2>
+                                            Du lịch nước ngoài                
+                                        </h2>
+                                        <a href="/tours/Du-lich-nuoc-ngoai-1262">
+                                        Xem thêm Tour <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                    <div class="content-white">
+                                        <div class="row row-8">
+                                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 p8-row">
+                                                <div class="card">
+                                                    <a href="/tour/Du-lich-Hawaii-3806"> 
+                                                    <img class="card-img-top" src="./images/1397-1507381612-onlinebooking.png" alt="" onerror="this.src='./templates/assets/img/no-image.png'">
+                                                    </a>
+                                                    <div class="card-body">
+                                                        <a href="/tour/Du-lich-Hawaii-3806">
+                                                            <h4 class="card-title">Du lịch Hawaii</h4>
+                                                        </a>
+                                                        <p class="card-text">Thiên Đường Nhiệt Đới Hawaii với những địa danh như Bảo tàng chứng tích Arizona,Tòa nhà lập pháp State Capitol,Thăm tượng đài vua Kamehamela,Làng Văn hóa dân tộc thiểu số – Polynesian, thưởng thức chương trình biểu diễn Polynesian Dancing Showing,Bãi biển nổi tiếng Waikiki quyến rũ.</p>
+                                                    </div>
+                                                    <ul class="list-group list-group-flush">
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                                            06 Ngày 05 Đêm                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane go" aria-hidden="true"></i>  
+                                                            Hà Nội/HCM                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane back" aria-hidden="true"></i>  
+                                                            Hawaii                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-usd" aria-hidden="true" style="margin-left: 2px;"></i> 
+                                                            <span class="price">48.900.000đ</span>
+                                                        </li>
+                                                        <!--  <li class="list-group-item">
+                                                            <i class="fa fa-check" aria-hidden="true"></i> 
+                                                            H1001                                </li> -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 p8-row">
+                                                <div class="card">
+                                                    <a href="/tour/Du-lich-Hongkong-2017-3805"> 
+                                                    <img class="card-img-top" src="./images/1397-1507379894-onlinebooking.png" alt="" onerror="this.src='./templates/assets/img/no-image.png'">
+                                                    </a>
+                                                    <div class="card-body">
+                                                        <a href="/tour/Du-lich-Hongkong-2017-3805">
+                                                            <h4 class="card-title">Du lịch Hongkong 2017</h4>
+                                                        </a>
+                                                        <p class="card-text">Đến với Hồng Kong chúng ta được uý khách đi thăm khu vực Đại Lộ Ngôi Sao –Nơi vinh danh tài tử điện ảnh Hoa ngữ Hongkong và Trung Hoa Đại Lục, lên núi Thái Bình – ngắm toàn cảnh Hồng Kông.</p>
+                                                    </div>
+                                                    <ul class="list-group list-group-flush">
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                                            04 Ngày 03 Đêm                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane go" aria-hidden="true"></i>  
+                                                            Hà Nội                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane back" aria-hidden="true"></i>  
+                                                            Hongkong                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-usd" aria-hidden="true" style="margin-left: 2px;"></i> 
+                                                            <span class="price">12.500.000đ</span>
+                                                        </li>
+                                                        <!--  <li class="list-group-item">
+                                                            <i class="fa fa-check" aria-hidden="true"></i> 
+                                                            HAN-HK1003                                </li> -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 p8-row">
+                                                <div class="card">
+                                                    <a href="/tour/Du-lich-04-nuoc-chau-au-Phap--Luxemburg--duc--Ha-Lan--Bi-3804"> 
+                                                    <img class="card-img-top" src="./images/1397-1507385065-onlinebooking.png" alt="" onerror="this.src='./templates/assets/img/no-image.png'">
+                                                    </a>
+                                                    <div class="card-body">
+                                                        <a href="/tour/Du-lich-04-nuoc-chau-au-Phap--Luxemburg--duc--Ha-Lan--Bi-3804">
+                                                            <h4 class="card-title">Du lịch 04 nước châu âu Pháp – Luxemburg – Đức – Hà Lan – Bỉ</h4>
+                                                        </a>
+                                                        <p class="card-text">Du lịch Châu Âu nổi tiếng với quá trình xây dựng lịch sử văn hóa và kinh tế tương đối lâu đời mang đậm nét Hy Lạp cổ đại. Cùng EKTravel khám phá vẻ đẹp lãng mạn mùa thu Châu Âu với chương trình tour du lịch</p>
+                                                    </div>
+                                                    <ul class="list-group list-group-flush">
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-clock-o" aria-hidden="true"></i> 
+                                                            10 Ngày 09 Đêm                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane go" aria-hidden="true"></i>  
+                                                            HÀ NỘI // SÀI GÒN                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-plane back" aria-hidden="true"></i>  
+                                                            PHÁP                                
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <i class="fa fa-usd" aria-hidden="true" style="margin-left: 2px;"></i> 
+                                                            <span class="price">52.900.000đ</span>
+                                                        </li>
+                                                        <!--  <li class="list-group-item">
+                                                            <i class="fa fa-check" aria-hidden="true"></i> 
+                                                            EKCA2017                                </li> -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Siêu Thị Vé Rẻ -->
+            <div class="block-sec">
+                <div class="container">
+                    <h2 class="title tit-bold">
+                        <i class="fa fa-bell alert" aria-hidden="true"></i>
+                        Siêu Thị Vé Rẻ
+                    </h2>
+                    <p class="title">Không mất công tìm kiếm. Giá rẻ trong tầm tay!</p>
+                    <p class="mt30 font18 txc p60 p0xs">Chọn các điểm đến bạn yêu thích, thời gian bay và giá cao nhất bạn mong muốn chi trả, OnlineBooking sẽ thông báo cho bạn vé rẻ ngay khi chúng tôi tìm thấy chuyến bay thích hợp với yêu cầu của bạn.</p>
+                    <div id="register-email-success" class="alert alert-success col-xs-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2" style="display: none">Đăng ký nhận email khuyến mãi thành công.</div>
+                    <div id="register-email-error" class="alert alert-danger col-xs-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2" style="display: none">Đăng ký nhận email khuyến mãi lỗi, vui lòng thử lại.</div>
+                    <div class="row form-notice mt30">
+                        <form id="email_promotion" data-toggle="validator" role="form" action="/email_promotion" method="post">
+                            <div class="col-xs-12 col-sm-8 pr8 p0xs">
+                                <input type="email" class="form-control" placeholder="Nhập email của bạn tại đây" required="required" maxlength="255" name="email_promotion">
+                            </div>
+                            <div class="col-xs-12 col-sm-4 pl8 p0xs mt10xs">
+                                <button type="submit" class="btn btn-orange-48" href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i> Tạo thông báo</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- End Siêu Thị Vé Rẻ -->        <!-- End Body -->
+        </div>
+        <a class="scrollToTop" id="bttop">
+        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+        </a>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="widget__setting_support">
+                <a href="tel:1900 1900" title="" class="btn-call">
+                <strong>1900 1900</strong>
+                <span><i class="fa fa-phone"></i></span>
+                </a>
+                <div class="site-social">
+                    <a href="https://www.messenger.com/t/webbanve.net" target="_blank" class="btn-social" title="Chat với chúng tôi qua facebook messenger">
+                        <svg viewBox="0 0 44 44" fill="none">
+                            <circle cx="22" cy="22" r="22" fill="url(#paint0_linear)"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M22.0026 7.70215C14.1041 7.70215 7.70117 13.6308 7.70117 20.9442C7.70117 25.1115 9.78083 28.8286 13.0309 31.256V36.305L17.9004 33.6325C19.2 33.9922 20.5767 34.1863 22.0026 34.1863C29.9011 34.1863 36.304 28.2576 36.304 20.9442C36.304 13.6308 29.9011 7.70215 22.0026 7.70215ZM23.4221 25.5314L19.7801 21.6471L12.6738 25.5314L20.4908 17.2331L24.2216 21.1174L31.239 17.2331L23.4221 25.5314Z" fill="white"/>
+                            <defs>
+                                <linearGradient id="paint0_linear" x1="21.6426" y1="43.3555" x2="21.6426" y2="0.428639" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#1168CF"/>
+                                    <stop offset="1" stop-color="#2CB7FF"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-top hidden-xs">
+                    <div class="container">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 p0xs">
+                            <div class="box-description-app">
+                                <h3>Đặt vé máy bay, thật đơn giản.</h3>
+                                <p>Bạn muốn đặt chỗ nhanh? Hãy tải ngay ứng dụng! Trải nghiệm đặt chỗ dễ dàng và nhanh chóng nhất. Đặt vé máy bay trong chưa đầy 1 phút!</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 p0xs">
+                            <div class="box-img-app">
+                                <h3 class="hidden-xs">Tải miễn phí, cực dễ dàng!</h3>
+                                <a class="badge-link" href="https://goo.gl/ZRADyb">
+                                <img src="./templates/assets/img/google-play-badge.png" width="200">
+                                </a>
+                                <a class="badge-link" href="https://goo.gl/mRCC9Z">
+                                <img src="./templates/assets/img/app-store-badge.png" width="200">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-3 col-md-2">
+                                <div class="title">OnlineBooking</div>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="/tin-tuc">
+                                        Tin tức
+                                        </a>
+                                    </li>
+                                    <li class="">
+                                        <a href="/gioi-thieu">Giới thiệu</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="/lien-he">Liên hệ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-md-2 p0">
+                                <div class="title">DỊCH VỤ</div>
+                                <ul class="list-unstyled">
+                                    <li><a href="/tours">Tours</a></li>
+                                </ul>
+                            </div>
+                            <!-- <div class="col-xs-12 col-sm-4 col-md-2">
+                                <div class="title">Công cụ</div>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="/huong-dan-thanh-toan">Hình thức thanh toán</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Điều khoản & Điều kiện</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Tuyển dụng</a>
+                                    </li>
+                                </ul>
+                                </div> -->
+                            <div class="col-xs-12 col-sm-3 col-md-2 p0">
+                                <div class="title">Link hữu ích</div>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="/huong-dan-thanh-toan">Hình thức thanh toán</a>
+                                    </li>
+                                    <li>
+                                        <a href="/cau-hoi-thuong-gap">Câu hỏi thường gặp</a>
+                                    </li>
+                                    <li>
+                                        <a href="/thong-tin-chuyen-khoan">Thông tin chuyển khoản</a>
+                                    </li>
+                                    <li>
+                                        <a href="/huong-dan-dat-ve">Hướng dẫn đặt vé</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-md-2">
+                                <div class="title">Follow us</div>
+                                <a href="https://fb.com/webbanve.net" class="link-social" target="_blank">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <!-- <a href="https://plus.google.com" class="link-social">
+                                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                                    </a> -->
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-4">
+                                <div class="fb-frame">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fwebbanve.net%2F&tabs&width=320&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=1980755515472604" width="320" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container txc-xs txt-copyright">
+                        <div class="visible-xs">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 p0xs">
+                                <div class="box-description-app">
+                                    <h3>Đặt vé máy bay, thật đơn giản.</h3>
+                                    <p>Bạn muốn đặt chỗ nhanh? Hãy tải ngay ứng dụng! Trải nghiệm đặt chỗ dễ dàng và nhanh chóng nhất. Đặt vé máy bay trong chưa đầy 1 phút!</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 p0xs">
+                                <div class="box-img-app">
+                                    <h3 class="hidden-xs">Tải miễn phí, cực dễ dàng!</h3>
+                                    <a class="badge-link" href="https://goo.gl/ZRADyb">
+                                    <img src="./templates/assets/img/google-play-badge.png" width="200">
+                                    </a>
+                                    <a class="badge-link" href="https://goo.gl/mRCC9Z">
+                                    <img src="./templates/assets/img/app-store-badge.png" width="200">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <hr>
+                        </div>
+                        <div class="fb-frame visible-xs">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fwebbanve.net%2F&tabs&width=320&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=1980755515472604" width="320" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                        </div>
+                        <hr/>
+                        Copyright © 2017 by <a href="/">OnlineBooking</a><br>
+                        <!--                 <p class="poweredby">Powered by <a href="https://webbanve.net/">Webbanve.net</a></p>
+                            -->
+                    </div>
+                </div>
+            </div>
+            <!-- End Footer -->
+            <!-- jQuery Defalut-->
+            <script src="./templates/assets/js/jquery.min.js"></script>
+            <script src="./templates/assets/js/bootstrap.min.js"></script>
+            <!-- Jquery Plugin -->
+            <script src="./templates/assets/js/select2.full.min.js"></script>
+            <script src="./templates/assets/js/slick.js" type="text/javascript" charset="utf-8"></script>
+            <script src="./templates/assets/js/enscroll.min.js" type="text/javascript" charset="utf-8"></script>
+            <script src="./templates/assets/js/bootstrap-typeahead.js"></script>
+            <script src="./templates/avia/js/bootstrap-datepicker.js?1639108659"></script>
+            <script src="./templates/assets/js/lunar-calendar.js"></script>
+            <!-- Jquery Page -->
+            <script src="./templates/avia/js/main.js?t=1639108659"></script>
+            <script src="./templates/assets/js/iframeResizer.min.js" type="text/javascript"></script>
+            <script src="./templates/assets/js/resizer.js" type="text/javascript"></script>
+    </body>
+</html>
+</div>
